@@ -5,11 +5,19 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<style>
+		.border-class
+		{
+		  border:thick black solid;
+		  margin:50px;
+		  padding:50px;
+		}
+	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="container border-class" style="background-color:#e6f0ff">
 		<form id="form1">
-			<label>
+			<label class="text-primary">
 					ADD NEW ADDRESS
 			</label>
 			<div class="row">
@@ -52,7 +60,7 @@
 			</div>
 			<div class="row">
 				<div class="form-group col-sm-4">
-					<label>
+					<label class="text-primary">
 						ADDRESS TYPE
 					</label>
 					<br>
@@ -64,7 +72,7 @@
 			</div>
 			<div class="row">
 				<div class="form-group col-sm-6">
-					<button type="submit" class="btn btn-group btn-success">SAVE</button>
+					<button type="submit" class="btn btn-group btn-lg btn-primary">SAVE</button>
 					<button type="submit" class="btn btn-group btn-danger">CANCEL</button>
 				</div>
 			</div>
